@@ -1,0 +1,23 @@
+.message {
+  min-width: 20%;
+  max-width: 60%;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &_my {
+    align-self: flex-end;
+    border-radius: 10px 0 10px 10px;
+    background-color: rgba(94, 255, 148, 0.5);
+  }
+  &_guest {
+    align-self: flex-start;
+    border-radius: 0 10px 10px;
+    background-color: rgba(255, 148, 49, 0.5);
+  }
+}

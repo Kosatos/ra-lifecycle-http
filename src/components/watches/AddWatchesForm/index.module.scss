@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+
+  &__input {
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    input {
+      width: 300px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+  }
+
+  &__btn {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+    }
+  }
+}

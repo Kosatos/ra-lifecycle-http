@@ -1,0 +1,18 @@
+.world-watches {
+  padding: 40px 0;
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+
+  &__watches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+}

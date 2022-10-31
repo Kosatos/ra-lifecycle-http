@@ -1,0 +1,46 @@
+.crud {
+  font-family: 'Roboto', sans-serif;
+  padding: 40px 0;
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 25px;
+  }
+
+  &__update {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://lh4.ggpht.com/OsTGy9ggJZVWqWL2aRRC2U5yFe0q7MFMubONQdgNv4YMzWtMmRQ2g5w7Ssgnn46_y28=w300);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    box-shadow: 0 0 5px 5px rgba(33, 120, 233, 0.25);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 5px 5px rgba(38, 107, 199, 0.5);
+    }
+  }
+
+  &__notes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
